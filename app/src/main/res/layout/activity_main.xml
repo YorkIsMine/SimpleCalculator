@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@android:color/background_dark">
+
+    <Button
+        android:id="@+id/eight"
+        android:layout_width="99dp"
+        android:layout_height="119dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="210dp"
+        android:layout_marginBottom="231dp"
+        android:textSize="36dp"
+        android:text="8"
+        android:textColor="@android:color/background_light"
+        android:background="@drawable/inset"/>
+
+    <Button
+        android:id="@+id/five"
+        android:layout_width="99dp"
+        android:layout_height="119dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="209dp"
+        android:layout_marginBottom="115dp"
+        android:textSize="36dp"
+        android:text="5"
+        android:textColor="@android:color/background_light"
+        android:background="@drawable/inset"/>
+
+    <Button
+        android:id="@+id/nine"
+        android:layout_width="99dp"
+        android:layout_height="119dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="231dp"
+        android:textSize="36dp"
+        android:text="9"
+        android:textColor="@android:color/background_light"
+        android:background="@drawable/inset"/>
+
+    <Button
+        android:id="@+id/six"
+        android:layout_width="99dp"
+        android:layout_height="119dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="115dp"
+        android:textSize="36dp"
+        android:text="6"
+        android:textColor="@android:color/background_light"
+        android:background="@drawable/inset"/>
+
+    <Button
+        android:id="@+id/multiply"
+        android:layout_width="99dp"
+        android:layout_height="119dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="231dp"
+        android:textSize="36dp"
+        android:text="x"
+        android:textColor="#44944A"
+        android:background="@drawable/inset"/>
+
+    <Button
+        android:id="@+id/anotherDiv"
+        android:layout_width="99dp"
+        android:layout_height="119dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="345dp"
+        android:textSize="36dp"
+        android:text="%"
+        android:textColor="#44944A"
+        android:background="@drawable/inset"/>
+
+    <Button
+        android:id="@+id/something"
+        android:background="@drawable/inset"
+        android:layout_width="99dp"
+        android:layout_height="119dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="209dp"
+        android:layout_marginBottom="346dp"
+        android:textSize="36dp"
+        android:text="( )"
+        android:textColor="#44944A"/>
+
+    <Button
+        android:id="@+id/Delete"
+        android:layout_width="99dp"
+        android:layout_height="119dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="312dp"
+        android:layout_marginBottom="346dp"
+        android:textSize="36dp"
+        android:text="C"
+        android:background="@drawable/inset"
+        android:textColor="@android:color/holo_red_light"/>
+
+    <Button
+        android:id="@+id/division"
+        android:layout_width="99dp"
+        android:layout_height="119dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="346dp"
+        android:textSize="36dp"
+        android:text="/"
+        android:background="@drawable/inset"
+        android:textColor="#44944A"/>
+
+    <Button
+        android:id="@+id/minus"
+        android:layout_width="99dp"
+        android:layout_height="119dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="115dp"
+        android:textSize="36dp"
+        android:text="-"
+        android:textColor="#44944A"
+        android:background="@drawable/inset"/>
+
+    <Button
+        android:id="@+id/seven"
+        android:layout_width="99dp"
+        android:layout_height="119dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="312dp"
+        android:layout_marginBottom="231dp"
+        android:textSize="36dp"
+        android:text="7"
+        android:textColor="@android:color/background_light"
+        android:background="@drawable/inset"/>
+
+    <Button
+        android:id="@+id/four"
+        android:layout_width="99dp"
+        android:layout_height="119dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="312dp"
+        android:layout_marginBottom="115dp"
+        android:textSize="36dp"
+        android:text="4"
+        android:textColor="@android:color/background_light"
+        android:background="@drawable/inset"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/point"
+        android:layout_width="99dp"
+        android:layout_height="119dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="0dp"
+        android:textSize="36dp"
+        android:text="."
+        android:textColor="@android:color/background_light"
+        android:background="@drawable/inset"/>
+
+    <Button
+        android:id="@+id/equals"
+        android:layout_width="99dp"
+        android:layout_height="119dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:textSize="36dp"
+        android:text="="
+        android:textColor="@android:color/background_light"
+        android:background="@drawable/green"/>
+
+    <Button
+        android:id="@+id/zero"
+        android:layout_width="99dp"
+        android:layout_height="119dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="208dp"
+        android:layout_marginBottom="0dp"
+        android:textSize="36dp"
+        android:text="0"
+        android:textColor="@android:color/background_light"
+        android:background="@drawable/inset"/>
+
+
+    <Button
+        android:id="@+id/plusAndMinus"
+        android:layout_width="99dp"
+        android:layout_height="119dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="312dp"
+        android:layout_marginBottom="0dp"
+        android:textSize="36dp"
+        android:text="+/-"
+        android:textColor="@android:color/background_light"
+        android:background="@drawable/inset"/>
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@android:color/background_dark"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:titleTextColor="@android:color/background_dark" />
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="546dp"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="546dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:background="@android:color/background_light"/>
+
+</RelativeLayout>
