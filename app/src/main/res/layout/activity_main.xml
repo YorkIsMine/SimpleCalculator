@@ -16,7 +16,7 @@
         android:layout_marginEnd="104dp"
         android:layout_marginBottom="90dp"
         android:background="@drawable/inset"
-        android:onClick="onClick"
+        android:onClick="onNumberClick"
         android:text="3"
         android:textColor="@android:color/background_light"
         android:textSize="36dp" />
@@ -32,7 +32,8 @@
         android:background="@drawable/inset"
         android:text="8"
         android:textColor="@android:color/background_light"
-        android:textSize="36sp" />
+        android:textSize="36sp"
+        android:onClick="onNumberClick"/>
 
     <Button
         android:id="@+id/five"
@@ -43,7 +44,7 @@
         android:layout_marginEnd="208dp"
         android:layout_marginBottom="180dp"
         android:background="@drawable/inset"
-        android:onClick="onClick"
+        android:onClick="onNumberClick"
         android:text="5"
         android:textColor="@android:color/background_light"
         android:textSize="36dp" />
@@ -59,7 +60,8 @@
         android:background="@drawable/inset"
         android:text="9"
         android:textColor="@android:color/background_light"
-        android:textSize="36dp" />
+        android:textSize="36dp"
+        android:onClick="onNumberClick"/>
 
     <Button
         android:id="@+id/six"
@@ -72,7 +74,8 @@
         android:background="@drawable/inset"
         android:text="6"
         android:textColor="@android:color/background_light"
-        android:textSize="36dp" />
+        android:textSize="36dp"
+        android:onClick="onNumberClick"/>
 
     <Button
         android:id="@+id/multiply"
@@ -85,7 +88,8 @@
         android:background="@drawable/inset"
         android:text="x"
         android:textColor="#44944A"
-        android:textSize="36dp" />
+        android:textSize="36dp"
+        android:onClick="onOperationClick"/>
 
     <Button
         android:id="@+id/anotherDiv"
@@ -125,7 +129,7 @@
         android:text="C"
         android:textColor="@android:color/holo_red_light"
         android:textSize="36sp"
-        android:onClick="onClick"/>
+        android:onClick="onOperationClick"/>
 
     <Button
         android:id="@+id/division"
@@ -138,7 +142,8 @@
         android:background="@drawable/inset"
         android:text="/"
         android:textColor="#44944A"
-        android:textSize="36dp" />
+        android:textSize="36dp"
+        android:onClick="onOperationClick"/>
 
     <Button
         android:id="@+id/plus"
@@ -152,7 +157,7 @@
         android:text="+"
         android:textColor="#44944A"
         android:textSize="36dp"
-        android:onClick="onClick"/>
+        android:onClick="onOperationClick"/>
 
     <Button
         android:id="@+id/minus"
@@ -165,7 +170,8 @@
         android:background="@drawable/inset"
         android:text="-"
         android:textColor="#44944A"
-        android:textSize="36dp" />
+        android:textSize="36dp"
+        android:onClick="onOperationClick"/>
 
     <Button
         android:id="@+id/seven"
@@ -178,7 +184,8 @@
         android:background="@drawable/inset"
         android:text="7"
         android:textColor="@android:color/background_light"
-        android:textSize="36dp" />
+        android:textSize="36dp"
+        android:onClick="onNumberClick"/>
 
     <Button
         android:id="@+id/four"
@@ -189,7 +196,7 @@
         android:layout_marginEnd="312dp"
         android:layout_marginBottom="180dp"
         android:background="@drawable/inset"
-        android:onClick="onClick"
+        android:onClick="onNumberClick"
         android:text="4"
         android:textColor="@android:color/background_light"
         android:textSize="36dp" />
@@ -203,7 +210,7 @@
         android:layout_marginEnd="312dp"
         android:layout_marginBottom="90dp"
         android:background="@drawable/inset"
-        android:onClick="onClick"
+        android:onClick="onNumberClick"
         android:text="1"
         android:textColor="@android:color/background_light"
         android:textSize="36dp" />
@@ -217,7 +224,7 @@
         android:layout_marginEnd="208dp"
         android:layout_marginBottom="90dp"
         android:background="@drawable/inset"
-        android:onClick="onClick"
+        android:onClick="onNumberClick"
         android:text="2"
         android:textColor="@android:color/background_light"
         android:textSize="36dp" />
@@ -246,7 +253,8 @@
         android:background="@drawable/green"
         android:text="="
         android:textColor="@android:color/background_light"
-        android:textSize="36dp" />
+        android:textSize="36dp"
+        android:onClick="onOperationClick"/>
 
     <Button
         android:id="@+id/zero"
@@ -259,7 +267,8 @@
         android:background="@drawable/inset"
         android:text="0"
         android:textColor="@android:color/background_light"
-        android:textSize="36dp" />
+        android:textSize="36dp"
+        android:onClick="onNumberClick"/>
 
 
     <Button
@@ -301,15 +310,35 @@
         android:layout_marginBottom="546dp"/>
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/numberField"
         android:layout_width="match_parent"
         android:layout_height="87dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="0dp"
-        android:layout_marginBottom="512dp"
+        android:layout_marginBottom="538dp"
+        android:background="@android:color/background_light"
         android:ems="10"
-        android:inputType="numberDecimal"
-        android:background="@android:color/background_light" />
+        android:inputType="phone" />
+
+    <TextView
+        android:id="@+id/resultField"
+        android:layout_width="259dp"
+        android:layout_height="44dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="492dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:id="@+id/operationField"
+        android:layout_width="151dp"
+        android:layout_height="44dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="260dp"
+        android:layout_marginBottom="493dp"
+        android:background="#c4c4c4" />
 
 </RelativeLayout>
