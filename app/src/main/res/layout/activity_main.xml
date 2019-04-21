@@ -8,214 +8,272 @@
     android:background="@android:color/background_dark">
 
     <Button
-        android:id="@+id/eight"
+        android:id="@+id/three"
         android:layout_width="99dp"
-        android:layout_height="119dp"
+        android:layout_height="80dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="210dp"
-        android:layout_marginBottom="231dp"
-        android:textSize="36dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="90dp"
+        android:background="@drawable/inset"
+        android:onClick="onClick"
+        android:text="3"
+        android:textColor="@android:color/background_light"
+        android:textSize="36dp" />
+
+    <Button
+        android:id="@+id/eight"
+        android:layout_width="99dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="208dp"
+        android:layout_marginBottom="270dp"
+        android:background="@drawable/inset"
         android:text="8"
         android:textColor="@android:color/background_light"
-        android:background="@drawable/inset"/>
+        android:textSize="36sp" />
 
     <Button
         android:id="@+id/five"
         android:layout_width="99dp"
-        android:layout_height="119dp"
+        android:layout_height="80dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="209dp"
-        android:layout_marginBottom="115dp"
-        android:textSize="36dp"
+        android:layout_marginEnd="208dp"
+        android:layout_marginBottom="180dp"
+        android:background="@drawable/inset"
+        android:onClick="onClick"
         android:text="5"
         android:textColor="@android:color/background_light"
-        android:background="@drawable/inset"/>
+        android:textSize="36dp" />
 
     <Button
         android:id="@+id/nine"
         android:layout_width="99dp"
-        android:layout_height="119dp"
+        android:layout_height="80dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="105dp"
-        android:layout_marginBottom="231dp"
-        android:textSize="36dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="270dp"
+        android:background="@drawable/inset"
         android:text="9"
         android:textColor="@android:color/background_light"
-        android:background="@drawable/inset"/>
+        android:textSize="36dp" />
 
     <Button
         android:id="@+id/six"
         android:layout_width="99dp"
-        android:layout_height="119dp"
+        android:layout_height="80dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="105dp"
-        android:layout_marginBottom="115dp"
-        android:textSize="36dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="180dp"
+        android:background="@drawable/inset"
         android:text="6"
         android:textColor="@android:color/background_light"
-        android:background="@drawable/inset"/>
+        android:textSize="36dp" />
 
     <Button
         android:id="@+id/multiply"
         android:layout_width="99dp"
-        android:layout_height="119dp"
+        android:layout_height="80dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="0dp"
-        android:layout_marginBottom="231dp"
-        android:textSize="36dp"
+        android:layout_marginBottom="270dp"
+        android:background="@drawable/inset"
         android:text="x"
         android:textColor="#44944A"
-        android:background="@drawable/inset"/>
+        android:textSize="36dp" />
 
     <Button
         android:id="@+id/anotherDiv"
         android:layout_width="99dp"
-        android:layout_height="119dp"
+        android:layout_height="80dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="105dp"
-        android:layout_marginBottom="345dp"
-        android:textSize="36dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="360dp"
+        android:background="@drawable/inset"
         android:text="%"
         android:textColor="#44944A"
-        android:background="@drawable/inset"/>
+        android:textSize="36dp" />
 
     <Button
         android:id="@+id/something"
-        android:background="@drawable/inset"
         android:layout_width="99dp"
-        android:layout_height="119dp"
+        android:layout_height="80dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="209dp"
-        android:layout_marginBottom="346dp"
-        android:textSize="36dp"
+        android:layout_marginEnd="208dp"
+        android:layout_marginBottom="360dp"
+        android:background="@drawable/inset"
         android:text="( )"
-        android:textColor="#44944A"/>
+        android:textColor="#44944A"
+        android:textSize="36dp" />
 
     <Button
-        android:id="@+id/Delete"
+        android:id="@+id/delete"
         android:layout_width="99dp"
-        android:layout_height="119dp"
+        android:layout_height="80dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="312dp"
-        android:layout_marginBottom="346dp"
-        android:textSize="36dp"
-        android:text="C"
+        android:layout_marginBottom="360dp"
         android:background="@drawable/inset"
-        android:textColor="@android:color/holo_red_light"/>
+        android:text="C"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="36sp"
+        android:onClick="onClick"/>
 
     <Button
         android:id="@+id/division"
         android:layout_width="99dp"
-        android:layout_height="119dp"
+        android:layout_height="80dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="0dp"
-        android:layout_marginBottom="346dp"
-        android:textSize="36dp"
-        android:text="/"
+        android:layout_marginBottom="360dp"
         android:background="@drawable/inset"
-        android:textColor="#44944A"/>
+        android:text="/"
+        android:textColor="#44944A"
+        android:textSize="36dp" />
+
+    <Button
+        android:id="@+id/plus"
+        android:layout_width="99dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="90dp"
+        android:background="@drawable/inset"
+        android:text="+"
+        android:textColor="#44944A"
+        android:textSize="36dp"
+        android:onClick="onClick"/>
 
     <Button
         android:id="@+id/minus"
         android:layout_width="99dp"
-        android:layout_height="119dp"
+        android:layout_height="80dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="0dp"
-        android:layout_marginBottom="115dp"
-        android:textSize="36dp"
+        android:layout_marginBottom="180dp"
+        android:background="@drawable/inset"
         android:text="-"
         android:textColor="#44944A"
-        android:background="@drawable/inset"/>
+        android:textSize="36dp" />
 
     <Button
         android:id="@+id/seven"
         android:layout_width="99dp"
-        android:layout_height="119dp"
+        android:layout_height="80dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="312dp"
-        android:layout_marginBottom="231dp"
-        android:textSize="36dp"
+        android:layout_marginBottom="270dp"
+        android:background="@drawable/inset"
         android:text="7"
         android:textColor="@android:color/background_light"
-        android:background="@drawable/inset"/>
+        android:textSize="36dp" />
 
     <Button
         android:id="@+id/four"
         android:layout_width="99dp"
-        android:layout_height="119dp"
+        android:layout_height="80dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="312dp"
-        android:layout_marginBottom="115dp"
-        android:textSize="36dp"
+        android:layout_marginBottom="180dp"
+        android:background="@drawable/inset"
+        android:onClick="onClick"
         android:text="4"
         android:textColor="@android:color/background_light"
+        android:textSize="36dp" />
+
+    <Button
+        android:id="@+id/one"
+        android:layout_width="99dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="312dp"
+        android:layout_marginBottom="90dp"
         android:background="@drawable/inset"
-        android:onClick="onClick"/>
+        android:onClick="onClick"
+        android:text="1"
+        android:textColor="@android:color/background_light"
+        android:textSize="36dp" />
+
+    <Button
+        android:id="@+id/two"
+        android:layout_width="99dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="208dp"
+        android:layout_marginBottom="90dp"
+        android:background="@drawable/inset"
+        android:onClick="onClick"
+        android:text="2"
+        android:textColor="@android:color/background_light"
+        android:textSize="36dp" />
 
     <Button
         android:id="@+id/point"
         android:layout_width="99dp"
-        android:layout_height="119dp"
+        android:layout_height="80dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="104dp"
         android:layout_marginBottom="0dp"
-        android:textSize="36dp"
+        android:background="@drawable/inset"
         android:text="."
         android:textColor="@android:color/background_light"
-        android:background="@drawable/inset"/>
+        android:textSize="36dp" />
 
     <Button
         android:id="@+id/equals"
         android:layout_width="99dp"
-        android:layout_height="119dp"
+        android:layout_height="80dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="0dp"
         android:layout_marginBottom="0dp"
-        android:textSize="36dp"
+        android:background="@drawable/green"
         android:text="="
         android:textColor="@android:color/background_light"
-        android:background="@drawable/green"/>
+        android:textSize="36dp" />
 
     <Button
         android:id="@+id/zero"
         android:layout_width="99dp"
-        android:layout_height="119dp"
+        android:layout_height="80dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="208dp"
         android:layout_marginBottom="0dp"
-        android:textSize="36dp"
+        android:background="@drawable/inset"
         android:text="0"
         android:textColor="@android:color/background_light"
-        android:background="@drawable/inset"/>
+        android:textSize="36dp" />
 
 
     <Button
         android:id="@+id/plusAndMinus"
         android:layout_width="99dp"
-        android:layout_height="119dp"
+        android:layout_height="80dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="312dp"
         android:layout_marginBottom="0dp"
-        android:textSize="36dp"
+        android:background="@drawable/inset"
         android:text="+/-"
         android:textColor="@android:color/background_light"
-        android:background="@drawable/inset"/>
+        android:textSize="36dp" />
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appBarLayout"
@@ -245,11 +303,13 @@
     <EditText
         android:id="@+id/editText"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="87dp"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="546dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="512dp"
         android:ems="10"
         android:inputType="numberDecimal"
-        android:background="@android:color/background_light"/>
+        android:background="@android:color/background_light" />
 
 </RelativeLayout>
